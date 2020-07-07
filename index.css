@@ -1,0 +1,61 @@
+* {
+    font-family: 'Roboto Mono', monospace;
+}
+
+/* Header Styles */
+
+#headerimg {
+    width: 13em;
+    height: 13em;
+    border-radius: 50%;
+  }
+
+  h1 {
+    font-family: 'Chelsea Market', cursive;
+    font-size: 3em;
+  }
+
+  p .description {
+    font-size: 25px;
+  }
+
+  .title {
+    float: right;
+    margin: 0 auto;
+    padding-right: 100px;
+  }
+
+/* Header Nav Buttons */
+
+  #plan {
+    margin: 0 10px;
+    padding: 20px;
+    display: inline-block;
+    border-radius: 20px;
+    color: white;
+    text-decoration: none;
+    margin-bottom: 60px;
+    background: #FF764E;
+  }
+
+  #learn {
+    margin: 0 10px;
+    padding: 20px;
+    display: inline-block;
+    border-radius: 20px;
+    color: white;
+    text-decoration: none;
+    margin-bottom: 60px;
+    background: #5ED3EB;
+  }
+
+  #involve {
+    margin: 0 10px;
+    padding: 20px;
+    display: inline-block;
+    border-radius: 20px;
+    color: white;
+    text-decoration: none;
+    margin-bottom: 60px;
+    background: #FFCD69;
+  }

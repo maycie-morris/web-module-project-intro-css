@@ -7,16 +7,17 @@
 /* Header Styles */
 
 #headerimg {
-    width: 13em;
-    height: 13em;
+    width: 15em;
+    height: 15em;
     border-radius: 50%;
   }
 
   h1 {
     font-family: 'Chelsea Market';
     font-size: 3em;
+    letter-spacing: 2px;
     border: 1px solid green;
-    padding-right: 10em;
+    padding-right: 5em;
   }
 
   .headertxt {
@@ -29,9 +30,23 @@
     padding-right: 100px;
   }
 
+  #explore {
+    text-align: center;
+  }
+
   #open {
     border: 1px solid pink;
+    width: 23em;
+    text-align: center;
+    padding-left: 12em;
   }
+
+  .container {
+    border: 1px dashed purple;
+    padding-left: 2em;
+    padding-right: 12em;
+  }
+
 /* Header Nav Buttons */
 
 .toplink {
@@ -45,18 +60,19 @@
   #plan {
     margin: 0 10px;
     padding: 20px;
+    padding-right: -1em;
     display: inline-block;
     border-radius: 20px;
     color: white;
     text-decoration: none;
     margin-bottom: 60px;
     background: #FF764E;
-    length: 5px;
   }
 
   #learn {
     margin: 0 10px;
     padding: 20px;
+    padding-right: -1em;
     display: inline-block;
     border-radius: 20px;
     color: white;
@@ -88,7 +104,15 @@
   }
 
   #maintxt {
-    border: 1px solid red;
-    padding-top: 1em;
-    margin-top: 3em;
+    margin-top: 6em;
+    margin-left: 2em;
+    margin-right: 2em;
+    padding-top: .5em;
+    padding-bottom: 1.5em;
+    padding-left: 1em;
+    padding-right: 1em;
+    background: #DDB9A3;
+    font-size: 1.3em;
+    color: white;
+    text-align: center;
   }

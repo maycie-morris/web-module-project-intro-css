@@ -13,8 +13,10 @@
   }
 
   h1 {
-    font-family: 'Chelsea Market', cursive;
+    font-family: 'Chelsea Market';
     font-size: 3em;
+    border: 1px solid green;
+    padding-right: 10em;
   }
 
   .headertxt {
@@ -27,6 +29,9 @@
     padding-right: 100px;
   }
 
+  #open {
+    border: 1px solid pink;
+  }
 /* Header Nav Buttons */
 
 .toplink {

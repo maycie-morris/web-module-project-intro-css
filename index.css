@@ -1,5 +1,7 @@
 * {
     font-family: 'Roboto Mono', monospace;
+    padding-top: .3em;
+    padding-left: .5em;
 }
 
 /* Header Styles */
@@ -15,8 +17,8 @@
     font-size: 3em;
   }
 
-  p .description {
-    font-size: 25px;
+  .headertxt {
+    border: 2px solid blue
   }
 
   .title {
@@ -27,6 +29,14 @@
 
 /* Header Nav Buttons */
 
+.toplink {
+  margin: 0 auto;
+  padding-top: 100px;
+  padding-left: 370px;
+  padding-right: 370px;
+  display: inline;
+}
+
   #plan {
     margin: 0 10px;
     padding: 20px;
@@ -36,6 +46,7 @@
     text-decoration: none;
     margin-bottom: 60px;
     background: #FF764E;
+    length: 5px;
   }
 
   #learn {
@@ -58,4 +69,21 @@
     text-decoration: none;
     margin-bottom: 60px;
     background: #FFCD69;
+  }
+
+
+  /* Body Styles */
+
+  .bodyimg {
+    width: 7em;
+    height: 7em;
+    padding: 1em;
+    padding-left: 40em;
+    margin: 0 auto;
+  }
+
+  #maintxt {
+    border: 1px solid red;
+    padding-top: 1em;
+    margin-top: 3em;
   }
